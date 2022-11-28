@@ -1,0 +1,24 @@
+Algorithm sentence
+
+Var  sentence : arr[string];
+ l,word ,v ,i: integer;
+
+word=0; //Number of words
+v=0; //Number of vowels
+
+Begin 
+
+l= sentence.length(); // The length of the sentence.
+//The number of words in the sentence.
+for (i=0 to l, i++){
+if (arr[i]= " ") {
+word= word+1 ;
+} }
+//The number of vowels in the sentence.
+sentence = sentence.toLowercase(); 
+for (i=0 to l,i++){
+if(arr[i] in ("a","e","i","o","u")) {
+v= v+1;
+} }
+
+End
